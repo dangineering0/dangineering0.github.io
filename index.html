@@ -1,1 +1,285 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dan Park</title>
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- animations on Dan Park prof pic -->
+     
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Dan Park</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >About Me</a>
+            </li>
+            <li>
+                <a href="#cd-timeline" onclick = $("#menu-close").click(); >Work</a>
+            </li>
+
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+            </li>
+            <li>
+                <a href="#resume" onclick = $("#menu-close").click(); >Resume</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Dan Park</h1>
+            <h3>Software Engineer</h3>
+            <br>
+        </div>
+        
+    </header>
+
+
+    <!-- About -->
+    <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="img/cd-icon-picture.svg" alt="Picture">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>Software Engineer</h2>
+                <br>
+           
+                <ul>
+              <li type="disc">Lead Android engineering on Twitter’s Fabric App with > 23,000 installs and 4.3 Play Store rating. </li>
+              <li type="disc">Drove Twitter’s Two Factor Authentication 2.0, Login Verification, Temporary Passwords.  </li>
+              <li type="disc">Implemented Twitter for Android’s account security features such as change email and two factor
+authentication.  </li>
+            </ul>
+                
+                <span class="cd-date">Twitter <br> May 2015 - Present</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+                <img src="img/cd-icon-movie.svg" alt="Movie">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>Software Engineer</h2>
+                <br>
+                   <ul>
+              <li type="disc">Designed an Android app to control smart devices through UPnP, Bluetooth, and RESTful APIs. </li>
+              <li type="disc">Developed usb-to-serial drivers, device firmware code in C, and Arduino code for interfacing sensors.</li>
+              <li type="disc">Led development of LifeConnect Android SDK for controlling smart devices and shipped it to Samsung
+divisions worldwide and showcased at 2015 C.E.S. </li>
+
+              
+            </ul>
+                
+                <span class="cd-date">Samsung Research America <br> November 2014 - May 2015</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="img/cd-icon-picture.svg" alt="Picture">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>Software Engineering Intern</h2>
+                <br>
+                      <ul>
+              <li type="disc">Created an internal web tool to automate report generation of hardware prototype testing.</li>
+              <li type="disc">Led migration from outdated Bootstrap UI and AngularJS versions to new AngularStrap. </li>
+              <li type="disc">Placed top 10 out of 1000 interns for Intern Idea Contest. </li>
+
+            </ul>                 
+            <span class="cd-date">Apple <br> May 2014 - August 2014</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+                <img src="img/cd-icon-location.svg" alt="Location">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>Software Engineering Intern <br>
+
+                  <ul>
+               <li type="disc">Streamlined the ramp-up process for developers to easily create their own automation tests by creating an
+internal API </li>
+              <li type="disc">Automated UI testing for the Zynga Poker Android app and implemented 25% of tests for all First Time
+User Experience scenarios. </li>
+                   
+            </ul>
+                
+                <span class="cd-date">Zynga<br> August 2013 - December 2013</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+                <img src="img/cd-icon-location.svg" alt="Location">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>User Interface Intern</h2>
+                <br>
+                 <ul>
+                  <li type="disc">Created working ad prototypes for Android/iOS/web applications by working closely with the product
+management team.</li>
+				  <li type="disc">Managed the entire product cycle of designing and implementing the company’s products page on mobile
+platforms. </li>
+                  
+                   
+                 </ul>
+               
+                <span class="cd-date">Vdopia <br> May 2013 - August 2013</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+             
+             <!-- cd-timeline-img -->
+
+        </div> <!-- cd-timeline-block -->
+    </section> <!-- cd-timeline -->
+        <!-- /.container -->
+   
+  
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>i like building things.</h1>
+        </div>
+    </aside>
+
+
+    <!-- Call to Action -->
+     <section id="resume" class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    
+                    <a href="img/resume.pdf" class="btn btn-lg btn-dark">View Resume</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+
+    <!-- Footer -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Contact Me</strong>
+                    </h4>
+                    
+                    <ul class="list-unstyled">
+                       
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:dan.park.jy@gmail.com">dan.park.jy@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Dangineering 2016</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+    <!-- timeline js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+
+</body>
+
+</html>
